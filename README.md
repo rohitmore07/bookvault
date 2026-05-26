@@ -43,4 +43,40 @@ BookVault is a dashboard-style web application for managing books. Users can lis
 | State | React Context API |
 | Notifications | React Hot Toast |
 | API (dev) | JSON Server |
-| Deployment | Vercel / Netlify ready |
+| Deployment | Vercel Ready |
+
+## Setup Instructions
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/bookvault.git
+cd bookvault
+```
+
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+
+### 3. Configure Environment Variables
+
+Create a `.env` file in the root directory and add:
+
+```env
+VITE_API_URL=https://6a1567f091ff9a63de081535.mockapi.io/books
+```
+
+### 4. Run the Development Server
+
+```bash
+npm run dev
+```
+
+The application will start on:
+
+```bash
+http://localhost:5173
+```
+
